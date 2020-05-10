@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:minHeight="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/url"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/host"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scheme"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/host"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/lastPathSegment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/path"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/pathSegments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastPathSegment"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pathSegments"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/QueryParameter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/query"
+            tools:layout_editor_absoluteX="74dp" />
+
+
+        <TextView
+            android:id="@+id/QueryParameterNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QueryParameter"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QueryParameterNames"
+            tools:layout_editor_absoluteX="74dp" />
+
+        <TextView
+            android:id="@+id/SchemeSpecificPart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hello World!"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment"
+            tools:layout_editor_absoluteX="74dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

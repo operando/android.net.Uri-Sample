@@ -1,0 +1,2 @@
+rootProject.name='UriSample'
+include ':app'
